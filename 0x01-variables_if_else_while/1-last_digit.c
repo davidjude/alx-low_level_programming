@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always o (seccess/correct)
- */
+* main - Entry point
+*
+* Return: Always o (seccess/correct)
+*/
 int main(void)
 
 {
@@ -27,7 +27,7 @@ printf("last digit of %i is %i and is 0\n", n, n % 10);
 
 else
 {
-printf(""last digit of %i is %i and is less than 6 and not0\n", n, n % 10);
+printf(""last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
 }
 
 return (0);
