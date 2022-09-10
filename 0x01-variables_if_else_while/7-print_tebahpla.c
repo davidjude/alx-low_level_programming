@@ -5,12 +5,12 @@
  *Return: Always 0 (success)
  */
 
-	int main(void)
+int main(void)
 
 {
-	char alphabet;
+char alphabet;
 
-	for (alphabet = 122 ; alphabet >= 97; alphabet--)
+for (alphabet = 122 ; alphabet >= 97; alphabet--)
 	
 	{
 		putchar(alphabet);
