@@ -1,12 +1,14 @@
 #include "main.h"
+
 /**
-*print_alphabet_x10 - Describes the main function
-*
-*Description:
-*Return: void
-*/
+ * print_alphabet_x10 - Prints all alpahbets in 10 lines
+ *
+ * Return: void
+ */
+
 void print_alphabet_x10(void)
 {
+
 	int i;
 
 	for (i = 0; i <= 9; i++)
@@ -17,6 +19,7 @@ void print_alphabet_x10(void)
 	{
 		_putchar(ch);
 	}
+
 		_putchar('\n');
 
 	}
