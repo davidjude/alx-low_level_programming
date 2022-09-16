@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
 *print_numbers - prints numbers 1 - 9
 *
